@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alif.sunshinepreferences.WeatherDetailsActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="always"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/action_change_location"
+        android:title="Map Location"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="100" />
+</menu>

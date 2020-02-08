@@ -1,0 +1,36 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Application name-->
+    <string name="app_name">SunshineSQLite</string>
+
+    <string name="error_message">Tidak ada koneksi internet!</string>
+
+    <!--Celsius format for temperature-->
+    <string name="celcius_format">
+        <xliff:g>%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <!--EditText Preference-->
+    <!--Default value for Location preference-->
+    <string name="pref_location_default" translatable="false">Mountain View, CA 94843</string>
+    <!--Key for Location preference-->
+    <string name="pref_location_key" translatable="false">location</string>
+    <!--Title for location Edit Text preference-->
+    <string name="pref_location_title">Location</string>
+
+    <!--List Preference-->
+    <!--Key for Temperature units preference-->
+    <string name="pref_temperature_units_key" translatable="false">units</string>
+    <!--Title for Temerature units pref-->
+    <string name="pref_temperature_units_title">Temperature Units</string>
+
+    <!--Temperature units preference Labels Values-->
+    <!--Temperature units label metric-->
+    <string name="pref_temperature_units_label_metric">Metric</string>
+    <!--Temperature units label imperial-->
+    <string name="pref_temperature_units_label_imperial">Imperial</string>
+    <!--Temperature units label metric-->
+    <!--Value in SharedPreferences for metric temperature unit option and its default value-->
+    <string name="pref_temperature_units_metric" translatable="false">metric</string>
+    <!--Value in SharedPreferences for imperial temperature unit option-->
+    <string name="pref_temperature_units_imperial" translatable="false">imperial</string>
+</resources>
